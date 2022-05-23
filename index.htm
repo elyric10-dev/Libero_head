@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libero</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <div class="loader_container">
+        <div class="loader">
+            <div class="loader_tiny_circle">
+                <div class="last_circle"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header_container">
+
+            <div class="drawer_container">
+                <div class="drawer_holder">
+                    <div class="drawer_lines"></div>
+                    <div class="drawer_lines"></div>
+                    <div class="drawer_lines"></div>
+                </div>
+
+            </div>
+            <div class="logo_container">
+                <div class="logo_image_container">
+                    <img src="assets/images/libero.png" alt="logo libero">
+                </div>
+            </div>
+            <div class="navigations_container">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">WORLD</a></li>
+                </ul>
+            </div>
+            <div class="search_bar_container">
+                <div class="search_holder">
+                    <div class="big_circle">
+                        <div class="small_circle"></div>
+                    </div>
+                    <div class="search_handle"></div>
+                </div>
+            </div>
+            <div class="search_now_container">
+                <div class="search_now_holder">
+                    <div class="two_search_container">
+                        <div class="search_input_container">
+                            <div class="search_input_holder">
+                                <input type="text" id="search_item" placeholder="Search items">
+                            </div>
+                        </div>
+                        <div class="search_close_button">
+                            <div class="search_close_button_holder">
+                                <ion-icon name="close-circle-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search_button">
+                        <div class="search_button_container">
+                            <div class="search_button_holder">
+                                Submit
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="drawer_background_color_holder">
+                <div class="drawer_title_close_container">
+                    <div class="drawer_close_button_holder">
+                        <div class="drawer_close_button">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="drawer_title_holder">
+                        Change Theme Color
+                    </div>
+                </div>
+                <div class="search_change_colors_container">
+                    <div class="drawer_change_color_container">
+                        <div class="drawer_change_color_box1"></div>
+                    </div>
+                    <div class="drawer_change_color_container">
+                        <div class="drawer_change_color_box2"></div>
+                    </div>
+                    <div class="drawer_change_color_container">
+                        <div class="drawer_change_color_box3"></div>
+                    </div>
+                    <div class="drawer_change_color_container">
+                        <div class="drawer_change_color_box4"></div>
+                    </div>
+                    <div class="drawer_change_color_container">
+                        <div class="drawer_change_color_box5"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/js.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        setTimeout(show_main_page, 2000)
+
+        function show_main_page() {
+            document.querySelector('.loader_container').style.display = "none"
+        }
+    </script>
+</body>
+
+</html>
